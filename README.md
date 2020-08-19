@@ -1,7 +1,7 @@
 # Maintain — A BASH Script running Aptitude (and apt-get for cleaning files) for step-by-step maintenance, or automated maintenance
 
 **Maintain** — Calls various maintenance commands using aptitude. Aptitude must be installed in order for this script to properly work.
-Install aptitude if necessary: ``bash apt-get install aptitude``
+Install aptitude if necessary: ``apt-get install aptitude``
 
 **usage: maintain option option option**
 First option can be either y or n. This tells the script to either update (y/Y) the repositories, or not to update (n/N) them.
