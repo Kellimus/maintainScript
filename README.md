@@ -10,7 +10,7 @@ Third option can be either f/F or any key. This tells the script to either do a 
 ***All three options must be called if you want to full-upgrade, and the third option must be a f/F in order to full-upgrade.***
 
 Examples:
-Maintain | Doesn't call any options and walks the user through questions relating to update and upgrade.
+Maintain | Doesn't call any options and walks the user through questions relating to update and upgrade
 Maintain n | Calls the script and tells it to not update the respositories, and then asks questions pertinent to upgrade
 Maintain y y * | Calls the script and tells it to update the repositories, and to safe-upgrade; third option can be anything, doesn't run because of safe-upgrade
 Maintain n n f | Calls the script and tells it not to update, not to safe-upgrade, and to full-upgrade
