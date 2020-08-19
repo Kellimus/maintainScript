@@ -7,7 +7,7 @@ Install aptitude if necessary: apt-get install aptitude
 First option can be either y or n. This tells the script to either update (y/Y) the repositories, or not to update (n/N) them.
 Second option can be either y or n. This tells the script to either do a safe-upgrade (y/Y), or not to safe-upgrade (n/N).
 Third option can be either f/F or any key. This tells the script to either do a full-upgrade (f/F), or to not full-upgrade (any character).
-***All three options must be called if you want to full-upgrade, and the third option must be a f/F in order to full-upgrade.***
+__*All three options must be called if you want to full-upgrade, and the third option must be a f/F in order to full-upgrade.*__
 
 Examples:
 Maintain | Doesn't call any options and walks the user through questions relating to update and upgrade
