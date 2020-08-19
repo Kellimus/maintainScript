@@ -13,7 +13,7 @@ Examples:
 Maintain | Doesn't call any options and walks the user through questions relating to update and upgrade.
 Maintain n | Calls the script and tells it to not update the respositories, and then asks questions pertinent to upgrade
 Maintain y y * | Calls the script and tells it to update the repositories, and to safe-upgrade; third option can be anything, doesn't run because of safe-upgrade
-Maintain n n f | Calls the script and tells it not to update, not to safe-upgrade, and to full-upgrade.
+Maintain n n f | Calls the script and tells it not to update, not to safe-upgrade, and to full-upgrade
 Maintain y n f | Calls the script and tells it to update and to full-upgrade
 Maintain n y * | Calls the script and tells it to not update and to safe-upgrade; third option can be anything, doesn't run because of safe-upgrade
 Maintain -h/-help/--h/--help | Four options to call this help file
