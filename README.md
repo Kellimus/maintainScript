@@ -16,6 +16,7 @@ Maintain y y * | Calls the script and tells it to update the repositories, and t
 Maintain n n f | Calls the script and tells it not to update, not to safe-upgrade, and to full-upgrade
 Maintain y n f | Calls the script and tells it to update and to full-upgrade
 Maintain n y * | Calls the script and tells it to not update and to safe-upgrade; third option can be anything, doesn't run because of safe-upgrade
+Maintain n n n | Calls the script for cleaning only. Does not update or upgrade
 Maintain -h/-help/--h/--help | Four options to call this help file
 
 _Author: Kelly Christus (C) 2019-2020 The Nation-State of Alkemia_
