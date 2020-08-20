@@ -21,3 +21,5 @@ Maintain -h/-help/--h/--help ; Four options to call this help file.
 
 *__Author:__ Kelly Christus (C) 2019-2020 The Nation-State of Alkemia*<br />
 __Licensed for free use and alteration under The Nation-State of Alkemia's Open Software License__
+
+- [ ] Update LICENSE file to reflect the Open Software License from The Nation-State of Alkemia instead of the GPLv3
