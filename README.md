@@ -1,9 +1,9 @@
 # Maintain - A BASH script using aptitude to handle the update of repositories and either a safe-upgrade or full-upgrade, then cleanup
 
-__<ins>Maintain</ins>__ - Calls various maintenance commands using aptitude. Aptitude must be installed in order for this script to work properly.
+__<ins>Maintain</ins>__ - Calls various maintenance commands using aptitude. Aptitude must be installed in order for this script to work properly.<br />
 *Install aptitude if necessary:* `apt-get install aptitude`
 
-__<ins>usage: maintain option option option__</ins><br />
+__<ins>usage:</ins> maintain option option option__<br />
 First option can be either y or n. This tells the script to either update (y/Y) the repositories, or not to update (n/N) them.<br />
 Second option can be either y or n. This tells the script to either do a safe-upgrade (y/Y), or not to safe-upgrade (n/N).<br />
 Third option can be either f/F or any character. This tells the script to either do a full-upgrade (f/F), or to not full-upgrade (any character).<br />
